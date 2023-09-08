@@ -35,6 +35,10 @@ module profile() {
   translate([-hook_radius-depth-2*thickness, front_drop-back_drop])
     square([thickness, back_drop]);
 
+  // round end of the back drop
+  translate([-hook_radius-depth-3*thickness/2, front_drop-back_drop])
+    circle(r=thickness/2);
+
   // fillet
   translate([-depth-hook_radius-thickness, front_drop])
   rotate(90)
@@ -72,7 +76,7 @@ module profile() {
   translate([hook_radius, 0])
     square([thickness, hook_rise]);
 
-  // round its end
+  // round end of the hook
   translate([hook_radius+thickness/2, hook_rise])
     circle(r=thickness/2);
 }
