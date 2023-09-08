@@ -30,7 +30,7 @@ hook_rise = 10;
 $fa = 3;
 $fs = 0.2;
 
-linear_extrude(width) {
+module profile() {
   // the back drop
   translate([-hook_radius-depth-2*thickness, front_drop-back_drop])
     square([thickness, back_drop]);
@@ -76,3 +76,5 @@ linear_extrude(width) {
   translate([hook_radius+thickness/2, hook_rise])
     circle(r=thickness/2);
 }
+
+linear_extrude(width) profile();
