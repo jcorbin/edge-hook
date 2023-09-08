@@ -81,4 +81,10 @@ module profile() {
     circle(r=thickness/2);
 }
 
-linear_extrude(width) profile();
+translate([
+  (depth + thickness)/2,
+  (hook_radius - front_drop)/2,
+  -width/2,
+])
+linear_extrude(width)
+  profile();
