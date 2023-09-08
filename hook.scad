@@ -26,8 +26,9 @@ hook_radius = 10;
 // how far straight part of hook rises above curved part
 hook_rise = 10;
 
-// number of sides in circle polygons
-$fn=360;
+// geometry resolution settings
+$fa = 3;
+$fs = 0.2;
 
 linear_extrude(width) {
   // the back drop
