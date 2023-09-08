@@ -6,25 +6,25 @@
 
 
 // width of entire strip
-width = 15;
+width = 10;
 
 // thickness of partition
-depth = 8;
+depth = 20;
 
 // thickness of entire strip
 thickness = 2.5;
 
 // how far clip descends behind partition
-back_drop = 25;
+back_drop = 32;
 
 // how far it drops in front of partition
-front_drop = 50;
+front_drop = 36 - 4;
 
 // inside radius of the hook part
-hook_radius = 10;
+hook_radius = 4;
 
 // how far straight part of hook rises above curved part
-hook_rise = 10;
+hook_rise = 16;
 
 // geometry resolution settings
 $fa = 3;
