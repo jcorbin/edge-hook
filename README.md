@@ -1,4 +1,4 @@
-# Parametric Edge Hook
+# [Parametric Edge Hook](https://than.gs/m/929226)
 
 Reworked this "bathroom hoook" model: <https://www.myminifactory.com/object/3d-print-parametric-bathroom-hook-117600>
 
